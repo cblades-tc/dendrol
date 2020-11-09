@@ -39,8 +39,8 @@ setup(
     long_description_content_type="text/markdown",
     install_requires=[
         # TODO: laxer req versions
-        'antlr4-python3-runtime==4.7',
-        'PyYAML>=3.12,<4',
+        'antlr4-python3-runtime',
+        'PyYAML',
     ],
     extras_require={
         'test': [
